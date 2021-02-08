@@ -1,0 +1,294 @@
+
+/*  
+
+#183446 - i zi per tekst
+#0496FF - blue per kontorno
+#E0DDCF - krem per shkrim mbi blu 
+
+*/
+
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #E0DDCF;
+  font-weight: normal;
+}
+
+.nav-wrapper {
+background: -webkit-gradient(linear, left top, left bottom, from(#0496FF), to(#183446));
+padding: 0 50px;
+}
+
+nav .brand-logo {
+  color: #E0DDCF;
+  font-family: 'Caveat', cursive;
+}
+
+h1 {
+  color: #183446;
+  font-weight: bold;
+  font-size: 3.5em;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #183446;
+  font-weight: bold;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+
+h3 {
+ color: #183446;
+ text-align: center;
+  font-weight: bold;
+}
+
+h5 {
+  color: #183446;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.btn-large {
+  background-color: #183446;
+  color: #E0DDCF;
+  border-radius: 5%;
+  position: relative;
+}
+
+.btn-large:hover {
+  background-color: #0496FF;
+  color: #E0DDCF;
+  border-radius: 5%;
+}
+
+.btn {
+  background-color: #183446;
+  color: #E0DDCF;
+  border-radius: 5%;
+  position: relative;
+}
+
+.btn:hover {
+  background-color: #0496FF;
+  color: #E0DDCF;
+  border-radius: 5%;
+}
+
+.btn-large:active {
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.btn:active {
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.header {
+  margin-bottom: 13%;
+}
+
+#h5 {
+  margin-top: -10%;
+}
+
+.light {
+margin-top: 60px;
+margin-bottom: 40px;
+color: #183446;
+}
+
+.right {
+   font-weight: bold;
+}
+
+p {
+  line-height: 2rem;
+  font-size: 1.2em;
+}
+
+.parallax-container {
+  line-height: 0;
+  height: 450px;
+  color: #0496FF;
+  border: 1px solid #220C10
+}
+
+table {
+border-collapse:collapse
+}
+
+td {
+border:1px solid #ddd;
+padding:8px;
+color: #183446;
+}
+
+th {
+  font-size: 1.4em;
+  text-align: center;
+  color: #183446;
+}
+
+td:hover {
+  background-color: #0496FF;
+  color: #E0DDCF;
+}
+
+th:hover {
+  background-color: #0496FF;
+  color: #E0DDCF;
+}
+
+#tabella {
+  margin: 90px;
+}
+
+ul {
+  color: #183446;
+  font-size: 1.1em;
+}
+
+ul li:hover {
+text-decoration: underline;
+}
+
+ul li {
+line-height: 40px;
+}
+
+#settoriDiSpecializzazione {
+  text-align: center;
+}
+
+.social {
+padding: 20px;
+margin-bottom: 50px;
+text-align: center;
+}
+
+.social button {
+border-radius: 3px;
+padding: 5px 8px;
+margin-right:6px;
+background:#183446;
+color: #E0DDCF;
+-webkit-border-radius: 5px;
+cursor: pointer;
+border: none;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+}
+
+.social button:hover {
+  background-color: #0496FF;
+  color: #E0DDCF;
+}
+
+.social button:active {
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.social .social1 {
+display: inline;
+text-align: left;
+}
+
+.icon-block {
+  padding: 0 5px;
+}
+
+#footer{
+  position: block;
+  text-align: center;
+  color: #E0DDCF;
+  font-family: 'Inconsolata', monospace;
+  font-weight: normal;
+  margin-top: 40px;
+  padding: 0px;
+  text-decoration: none;
+  padding-top: 20px;
+  font-size: 1em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0496FF), to(#183446));
+}
+
+#footer a {
+  color: #E0DDCF;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #D4D2D5;
+  background-color: #0496FF;
+}
+.credits{
+  text-align: right;
+  color: red;
+  font-weight: normal;
+}
+
+img {
+      display:block;
+      margin:0px auto;
+      text-align:center;
+      padding-top: 50px;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    margin-left: 550px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:left;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    font-size:30px;
+    color:#EEC584;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+#aDestra {
+text-align: center;
+}
+
+iframe {
+  padding-top: 50px;
+}
+
+/*MOBILE SCREEN*/
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
